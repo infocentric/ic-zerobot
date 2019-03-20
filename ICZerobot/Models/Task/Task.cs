@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace ICZerobot.Models.Task
+namespace ICZerobot.Models
 {
     public class Task
     {
+        public string Id { get; set; }
+        public string Url { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
         public IEnumerable<byte[]> Attachements { get; set; }
