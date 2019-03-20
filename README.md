@@ -1,6 +1,7 @@
 # ic-zerobot-logic
 The logic which allows zerobot to interact between all the system
 
+#Just set the JiraAdapter endpoint in WebEndpoints.config and you are ready to go :)
 
 #The Task Model as json should look somethink like this when calling the ICZerobot
 {
